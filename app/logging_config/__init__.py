@@ -32,7 +32,7 @@ def after_request_logging(response):
 
 
 @log_con.before_app_first_request
-def configure_logging()
+def configure_logging():
     logging.config.dictConfig(LOGGING_CONFIG)
     log = logging.getLogger("myApp")
     log.info("My App Logger")
