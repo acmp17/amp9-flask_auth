@@ -98,36 +98,36 @@ LOGGING_CONFIG = {
             'backupCount': 5,
         },
     },
-},
-'loggers': {
-    '': { # root logger
-        'handlers': ['default', 'file.handler'],
-        'level': 'DEBUG',
-        'propagate': True
-    },
-    '__main__': { # if __name__ = '__main__'
-        'handlers': ['default', 'file.handler'],
-        'level': 'DEBUG',
-        'propagate': True
-    },
-    'werkzeug': { # if __name__ = '__main__'
-        'handlers': ['file.handler.werkzeug'],
-        'level': 'DEBUG',
-        'propagate': False
-    },
-    'sqlalchemy.engine': { # if __name__ = '__main__'
-        'handlers': ['file.handler.sqlalchemy'],
-        'level': 'INFO',
-        'propagate': False
-    },
-    'myApp': { # if __name__ = '__main__'
-        'handlers': ['file.handler'],
-        'level': 'DEBUG',
-        'propagate': False
-    },
-    'myerrors': { # if __name__ = '__main__'
-        'handlers': ['file.handler.errors'],
-        'level': 'DEBUG',
-        'propagate': False
-    },
+    'loggers': {
+        '': { # root logger
+            'handlers': ['default', 'file.handler'],
+            'level': 'DEBUG',
+            'propagate': True
+        },
+        '__main__': { # if __name__ = '__main__'
+            'handlers': ['default', 'file.handler'],
+            'level': 'DEBUG',
+            'propagate': True
+        },
+        'werkzeug': { # if __name__ = '__main__'
+            'handlers': ['file.handler.werkzeug'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'sqlalchemy.engine': { # if __name__ = '__main__'
+            'handlers': ['file.handler.sqlalchemy'],
+            'level': 'INFO',
+            'propagate': False
+        },
+        'myApp': { # if __name__ = '__main__'
+            'handlers': ['file.handler'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'myerrors': { # if __name__ = '__main__'
+            'handlers': ['file.handler.errors'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+    }
 }
