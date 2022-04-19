@@ -1,2 +1,10 @@
 2022-04-19 18:20:22,775 [INFO] myApp: My App Logger
 2022-04-19 18:20:22,780 [INFO] app: Before Request
+2022-04-19 18:21:18,911 [INFO] myApp: My App Logger
+2022-04-19 18:21:18,913 [INFO] app: Before Request
+2022-04-19 18:21:20,004 [INFO] app: Before Request
+2022-04-19 18:21:20,010 [INFO] app: Before Request
+2022-04-19 18:21:26,477 [INFO] app: Before Request
+2022-04-19 18:21:27,423 [INFO] app: Before Request
+2022-04-19 18:21:32,086 [INFO] app: Before Request
+2022-04-19 18:21:33,049 [INFO] app: Before Request
