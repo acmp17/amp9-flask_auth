@@ -35,6 +35,7 @@ def create_app():
         app.config.from_object("app.config.TestingConfig")
 
     app.secret_key = 'This is an INSECURE secret!! DO NOT use this in production!!'
+    # https://flask-login.readthedocs.io/en/latest/   <- login manager
     login_manager.init_app(app)
     login_manager.login_view = "auth.login"
     csrf = CSRFProtect(app)
