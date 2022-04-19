@@ -27,6 +27,13 @@ login_manager = flask_login.LoginManager()
 def create_app():
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
+    if app.config["ENV"] == "production":
+        app.config.from_object("app.config.ProductionConfig")
+    elif app.config["ENV"] == "development":
+        app.config.from_object("app.config.DevelopmentConfig")
+    elif app.config["ENV"] == "testing":
+        app.config.from_object("app.config.TestingConfig")
+
     app.secret_key = 'This is an INSECURE secret!! DO NOT use this in production!!'
     login_manager.init_app(app)
     login_manager.login_view = "auth.login"
