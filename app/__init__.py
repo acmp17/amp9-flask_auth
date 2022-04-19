@@ -55,7 +55,6 @@ def create_app():
     app.context_processor(utility_text_processors)
     # add command function to cli commands
     app.cli.add_command(create_database)
-    app.cli.add_command(create_log_folder)
     db.init_app(app)
     # Run once at startup:
 
