@@ -1,5 +1,5 @@
 """A simple flask web app"""
-import flask_login
+import logging
 import os
 import datetime
 import time
@@ -7,6 +7,7 @@ import time
 from flask import g, request
 from rfc3339 import rfc3339
 
+import flask_login
 from flask import render_template, Flask, has_request_context, request
 from flask_bootstrap import Bootstrap5
 from flask_wtf.csrf import CSRFProtect
@@ -21,7 +22,6 @@ from app.exceptions import http_exceptions
 from app.error_handlers import error_handlers
 from app.logging_config import log_con
 from app.simple_pages import simple_pages
-import logging
 from flask.logging import default_handler
 
 login_manager = flask_login.LoginManager()
