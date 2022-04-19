@@ -18,6 +18,8 @@ from app.context_processors import utility_text_processors
 from app.db import db
 from app.db.models import User
 from app.exceptions import http_exceptions
+from app.error_handlers import error_handlers
+from app.logging_config import log_con
 from app.simple_pages import simple_pages
 import logging
 from flask.logging import default_handler
