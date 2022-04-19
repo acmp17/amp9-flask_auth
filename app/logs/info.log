@@ -1,0 +1,12 @@
+[2022-04-07 17:42:23,428] 172.20.0.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-07 17:42:24,256] 172.20.0.1 requested http://localhost/apple-touch-icon-precomposed.png
+INFO in __init__: this is the plain message
+[2022-04-07 17:42:24,288] 172.20.0.1 requested http://localhost/apple-touch-icon.png
+INFO in __init__: this is the plain message
+[2022-04-19 12:26:51,726] 172.20.0.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-19 12:26:52,675] 172.20.0.1 requested http://localhost/apple-touch-icon-precomposed.png
+INFO in __init__: this is the plain message
+[2022-04-19 12:26:52,690] 172.20.0.1 requested http://localhost/apple-touch-icon.png
+INFO in __init__: this is the plain message
