@@ -26,7 +26,7 @@ def after_request_logging(response):
         return response
     current_app.logger.info("After Request")
 
-    log = logger.getLogger("myApp")
+    log = logging.getLogger("myApp")
     log.info("My App Logger")
     return response
 
