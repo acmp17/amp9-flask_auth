@@ -1,9 +1,15 @@
 name: Development Workflow 3.8
 
 on:
+  push:
+    branches:
+      - 'amp9-dev'
+    tags:
+      - 'v*'
   pull_request:
     branches:
       - 'master'
+      - 'main'
 
 jobs:
   run_pytest:
@@ -28,6 +34,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "kwilliam-dev" #Must be unique in Heroku
-          heroku_email: "keith@webizly.com"
+          heroku_app_name: "amp9-logging-dev" #Must be unique in Heroku
+          heroku_email: "amp9@njit.edu"
           usedocker: true
