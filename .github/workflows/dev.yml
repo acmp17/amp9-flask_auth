@@ -3,12 +3,12 @@ name: Development Workflow 3.8
 on:
   push:
     branches:
-      - 'amp9-dev'
+      - 'amp9-logging-dev'
     tags:
       - 'v*'
   pull_request:
     branches:
-      - 'master'
+      - 'logging'
       - 'main'
 
 jobs:
