@@ -129,5 +129,10 @@ LOGGING_CONFIG = {
             'level': 'DEBUG',
             'propagate': False
         },
+        'request': { # if __name__ = '__main__'
+            'handlers': ['file.handler.request'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
     }
 }
