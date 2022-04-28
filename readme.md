@@ -1,4 +1,4 @@
-# Project Setup Change For Project 3
+# Project Setup Change For Project 3.
 
 [![Production Workflow](https://github.com/acmp17/amp9-flask_auth/actions/workflows/prod.yml/badge.svg)](https://github.com/acmp17/amp9-flask_auth/actions/workflows/prod.yml)
 
