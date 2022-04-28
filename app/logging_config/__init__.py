@@ -28,6 +28,10 @@ def after_request_logging(response):
 
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+
+    log = logging.getLogger("request")
+    log.info("My App Request")
+
     return response
 
 

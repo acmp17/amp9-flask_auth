@@ -132,3 +132,40 @@
 2022-04-28 15:59:21,438 [INFO] myApp: My App Logger
 2022-04-28 15:59:22,382 [INFO] app: Before Request
 2022-04-28 15:59:22,386 [INFO] myApp: My App Logger
+2022-04-28 16:33:34,009 [INFO] myApp: My App Logger
+2022-04-28 16:33:34,013 [INFO] app: Before Request
+2022-04-28 16:33:34,018 [INFO] myApp: My App Logger
+2022-04-28 16:33:34,214 [INFO] app: After Request
+2022-04-28 16:33:34,223 [INFO] myApp: My App Logger
+2022-04-28 16:33:34,243 [INFO] app: Before Request
+2022-04-28 16:33:34,249 [INFO] myApp: My App Logger
+2022-04-28 17:52:44,947 [INFO] myApp: My App Logger
+2022-04-28 17:52:44,950 [INFO] app: Before Request
+2022-04-28 17:52:44,953 [INFO] myApp: My App Logger
+2022-04-28 17:52:45,153 [INFO] app: After Request
+2022-04-28 17:52:45,157 [INFO] myApp: My App Logger
+2022-04-28 17:52:48,619 [INFO] app: Before Request
+2022-04-28 17:52:48,622 [INFO] myApp: My App Logger
+2022-04-28 17:52:48,649 [INFO] app: Before Request
+2022-04-28 17:52:48,664 [INFO] app: After Request
+2022-04-28 17:52:48,666 [INFO] app: Before Request
+2022-04-28 17:52:48,667 [INFO] myApp: My App Logger
+2022-04-28 17:52:48,670 [INFO] myApp: My App Logger
+2022-04-28 17:52:48,672 [INFO] myApp: My App Logger
+2022-04-28 17:52:48,686 [INFO] app: After Request
+2022-04-28 17:52:48,696 [INFO] myApp: My App Logger
+2022-04-28 17:52:48,694 [INFO] app: After Request
+2022-04-28 17:52:48,704 [INFO] myApp: My App Logger
+2022-04-28 17:54:28,440 [INFO] myApp: My App Logger
+2022-04-28 17:54:28,442 [INFO] app: Before Request
+2022-04-28 17:54:28,447 [INFO] myApp: My App Logger
+2022-04-28 17:54:28,633 [INFO] app: After Request
+2022-04-28 17:54:28,635 [INFO] myApp: My App Logger
+2022-04-28 17:54:30,329 [INFO] app: Before Request
+2022-04-28 17:54:30,332 [INFO] myApp: My App Logger
+2022-04-28 17:54:30,347 [INFO] app: After Request
+2022-04-28 17:54:30,351 [INFO] myApp: My App Logger
+2022-04-28 17:54:31,367 [INFO] app: Before Request
+2022-04-28 17:54:31,369 [INFO] myApp: My App Logger
+2022-04-28 17:54:31,380 [INFO] app: After Request
+2022-04-28 17:54:31,384 [INFO] myApp: My App Logger
