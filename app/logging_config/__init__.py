@@ -28,6 +28,10 @@ def after_request_logging(response):
 
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+
+    log = logging.getLogger("request")
+    log.info("My App Request")
+
     return response
 
 
@@ -126,6 +130,11 @@ LOGGING_CONFIG = {
         },
         'myerrors': { # if __name__ = '__main__'
             'handlers': ['file.handler.errors'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'request': { # if __name__ = '__main__'
+            'handlers': ['file.handler.request'],
             'level': 'DEBUG',
             'propagate': False
         },
