@@ -125,3 +125,10 @@
 2022-04-27 14:29:53,595 [INFO] myApp: My App Logger
 2022-04-27 14:29:53,617 [INFO] app: After Request
 2022-04-27 14:29:53,620 [INFO] myApp: My App Logger
+2022-04-28 15:59:21,220 [INFO] myApp: My App Logger
+2022-04-28 15:59:21,226 [INFO] app: Before Request
+2022-04-28 15:59:21,230 [INFO] myApp: My App Logger
+2022-04-28 15:59:21,436 [INFO] app: After Request
+2022-04-28 15:59:21,438 [INFO] myApp: My App Logger
+2022-04-28 15:59:22,382 [INFO] app: Before Request
+2022-04-28 15:59:22,386 [INFO] myApp: My App Logger
