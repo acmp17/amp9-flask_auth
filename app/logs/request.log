@@ -1,3 +1,4 @@
 [2022-04-28 17:54:28,637] [93] 172.20.0.1 requested http://localhost/aboutINFO in __init__: My App Request
 [2022-04-28 17:54:30,354] [93] 172.20.0.1 requested http://localhost/registerINFO in __init__: My App Request
 [2022-04-28 17:54:31,387] [93] 172.20.0.1 requested http://localhost/welcomeINFO in __init__: My App Request
+[2022-04-29 15:38:24,792] [9] 172.20.0.1 requested http://localhost/INFO in __init__: My App Request

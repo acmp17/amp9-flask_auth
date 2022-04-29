@@ -42,10 +42,11 @@ def create_app():
     # these load functions with web interface
     app.register_blueprint(simple_pages)
     app.register_blueprint(auth)
-
+    app.register_blueprint(database)
     # these load functionality without a web interface
     app.register_blueprint(log_con)
     app.register_blueprint(error_handlers)
+    app.register_blueprint(songs)
     app.context_processor(utility_text_processors)
     # add command function to cli commands
     app.cli.add_command(create_database)
