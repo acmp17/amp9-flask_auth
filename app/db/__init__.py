@@ -14,18 +14,4 @@ database = Blueprint('database', __name__,)
 def init_db():
     db.create_all()
 
-@database.before_app_first_request
-def create_db_file_if_does_not_exist():
-    root = config.Config.BASE_DIR
-    dbdir = os.path.join(root,'..',config.Config.DB_DIR)
-    if not os.path.exists(dbdir):
-        os.mkdir(dbdir)
-
-@database.before_app_first_request
-def create_upload_folder():
-    root = config.Config.BASE_DIR
-    uploadfolder = os.path.join(root,'...', config.Config.UPLOAD_FOLDER)
-    if not os.path.exists(uploadfolder):
-        os.mkdir(uploadfolder)
-    db.create_all()
 
